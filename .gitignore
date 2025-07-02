@@ -1,0 +1,7 @@
+/.venv/
+/.env
+/db.sqlite3
+/logs/
+__pycache__/
+*.py[cod]
+*.pyo

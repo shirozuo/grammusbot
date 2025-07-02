@@ -1,0 +1,9 @@
+[tool.ruff]
+line-length = 88
+exclude = ["migrations"]
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "D", "I", "UP"]
+ignore = ["D100", "D104", "D203", "D213", "COM812"]
+per-file-ignores = {"config/settings.py" = ["E501"]}
